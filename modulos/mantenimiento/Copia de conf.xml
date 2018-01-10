@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Mantenimiento" imagen="images/mail.png">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/mantenimiento/tipo_documento/tipo_documento.php">Tipo Documentos</FirstGeneration>											
+	</father>
+</menu>

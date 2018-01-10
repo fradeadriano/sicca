@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Reportes" orden="3">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/reportes/bateria1/lis_general_correspondencia/reporte.php" acronimo="rptGeneral" orden="1">General Correspondencia</FirstGeneration>											
+		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/reportes/bateria1/tot_correspondencia/reporte.php" acronimo="rptTotal" orden="2">Totales Correspondencia</FirstGeneration>													
+		<FirstGeneration id="child3" imagen="images/mail.png" ruta="modulos/reportes/bateria1/seg_correspondencia/reporte.php" acronimo="rptSeguimiento" orden="3">Seguimiento Correspondencia</FirstGeneration>															
+		<FirstGeneration id="child4" imagen="" ruta="" orden="4">Modulo CGR
+			<SecondGeneration id="child4_1" imagen="images/mail.png" ruta="modulos/reportes/bateria2/lis_general_correspondencia/reporte.php" acronimo="cgrRptGeneral" orden="1">
+				General Correspondencia
+			</SecondGeneration>	
+			<SecondGeneration id="child4_2" imagen="images/mail.png" ruta="modulos/reportes/bateria2/tot_correspondencia/reporte.php" acronimo="cgrRptTotal" orden="2">
+				Totales Correspondencia
+			</SecondGeneration>	
+			<SecondGeneration id="child4_3" imagen="images/mail.png" ruta="modulos/reportes/bateria2/seg_correspondencia/reporte.php" acronimo="cgrRptSeguimiento" orden="3">
+				Seguimiento Correspondencia
+			</SecondGeneration>									
+		</FirstGeneration>	
+	</father>
+</menu>
+

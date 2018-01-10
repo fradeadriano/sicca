@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Mantenimiento" orden="4">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/mantenimiento/tipo_documento/tipo_documento.php" acronimo="TipDocum" orden="1">Tipo Documentos</FirstGeneration>											
+		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/mantenimiento/organismo/organismo.php" acronimo="Organ" orden="1">Organismo</FirstGeneration>											
+	</father>
+</menu>

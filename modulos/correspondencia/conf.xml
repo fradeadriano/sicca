@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Correspondencia" orden="1">
+		<FirstGeneration id="child1" imagen="" ruta="" orden="1">CGR
+			<SecondGeneration id="child1_1" imagen="images/mail.png" ruta="modulos/correspondencia/cgr/recepcion/recepcion.php" acronimo="cgrRecep" orden="1">
+				Recepcion
+			</SecondGeneration>	
+			<SecondGeneration id="child1_2" imagen="images/mail.png" ruta="modulos/correspondencia/cgr/monitoreo_cgr/monitoreo.php" acronimo="cgrMoni" orden="2">
+				Monitoreo
+			</SecondGeneration>	
+			<SecondGeneration id="child1_3" imagen="images/mail.png" ruta="modulos/correspondencia/cgr/monitoreo_unidad/monitoreo.php" acronimo="cgrAsig" orden="3">
+				Solicitudes
+			</SecondGeneration>									
+		</FirstGeneration>	
+		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/correspondencia/recepcion/recepcion.php" acronimo="recepCorres" orden="2">Recepcion</FirstGeneration>		
+		<FirstGeneration id="child3" imagen="images/mail.png" ruta="modulos/correspondencia/monitoreo/monitoreo.php" acronimo="CorresMoni" orden="3">Monitoreo</FirstGeneration>				
+		<!--<FirstGeneration id="child4" imagen="images/mail.png" ruta="modulos/correspondencia/asignadas/asignadas.php" acronimo="CorresAsig" orden="4">Asignados</FirstGeneration>-->						
+		<FirstGeneration id="child5" imagen="images/mail.png" ruta="modulos/correspondencia/devolucion/devolucion.php" acronimo="CorresDev" orden="5">Devoluciones</FirstGeneration>						
+		<FirstGeneration id="child6" imagen="images/mail.png" ruta="modulos/correspondencia/monitoreo_unidad/monitoreo.php" acronimo="CorresMoniUni" orden="6">Asignadas</FirstGeneration>						
+		<FirstGeneration id="child7" imagen="images/mail.png" ruta="modulos/correspondencia/monitoreo_revisar/monitoreo.php" acronimo="CorresMoniRev" orden="7">Revisar</FirstGeneration>								
+		<FirstGeneration id="child8" imagen="images/mail.png" ruta="modulos/correspondencia/monitoreo_externo/monitoreo.php" acronimo="CorresMoniExte" orden="8">Monitoreo Oficio Interno</FirstGeneration>								
+		<FirstGeneration id="child9" imagen="images/mail.png" ruta="modulos/correspondencia/procesar/main_pro.php" acronimo="ProcesInter" orden="9">Generar Oficio Interno</FirstGeneration>										
+		<FirstGeneration id="child10" imagen="images/mail.png" ruta="modulos/correspondencia/generar/generar.php" acronimo="GenerCorres" orden="10">Generar Oficio Externo</FirstGeneration>
+		<FirstGeneration id="child11" imagen="images/mail.png" ruta="modulos/correspondencia/monitoreo_interno/monitoreo.php" acronimo="CorresMoniInter" orden="11">Monitoreo Oficio Externo</FirstGeneration>		
+
+		<FirstGeneration id="child12" imagen="" ruta="" orden="12">Emision CGR
+			<SecondGeneration id="child12_1" imagen="images/mail.png" ruta="modulos/correspondencia/cgr/cgr_procesar/main_pro.php" acronimo="cgrGenerOf" orden="1">
+				Generar Oficio Vinculante
+			</SecondGeneration>	
+			<SecondGeneration id="child12_2" imagen="images/mail.png" ruta="modulos/correspondencia/cgr/cgr_monitoreo_interno/monitoreo.php" acronimo="cgrMoniOf" orden="2">
+				Monitoreo
+			</SecondGeneration>	
+		</FirstGeneration>	
+	</father>
+</menu>

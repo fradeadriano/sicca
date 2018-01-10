@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Contingencia" orden="6">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/contingencia/recepcion/recepcion.php" acronimo="ContRecep" orden="1">Recepcion Correspondencia</FirstGeneration>												
+		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/contingencia/asig_accion/asig_accion.php" acronimo="ContAccion" orden="2">Correspondencia Asignada</FirstGeneration>													
+		<FirstGeneration id="child3" imagen="images/mail.png" ruta="modulos/contingencia/oficio_externo/oficio_externo.php" acronimo="ContOficio" orden="3">Oficios Enviados</FirstGeneration>															
+<!--		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/contingencia/organismo/organismo.php" acronimo="Organ" orden="1">Organismo</FirstGeneration>											-->
+	</father>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Visitas" orden="2">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/reg_visitas/visitas/visitas.php" acronimo="visit" orden="1">Registro Visitas</FirstGeneration>		
+	</father>
+</menu>

@@ -1,0 +1,1 @@
+<? echo "<br><br><br>tipo docmumento"; ?>

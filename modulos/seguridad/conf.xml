@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menu>
+	<identificador id="acceso">YmVuZmljYQ==</identificador>
+	<father id="Seguridad" orden="5">
+		<FirstGeneration id="child1" imagen="images/mail.png" ruta="modulos/seguridad/usuarios/usuarios.php" acronimo="usu" orden="1">Usuarios</FirstGeneration>		
+		<FirstGeneration id="child2" imagen="images/mail.png" ruta="modulos/seguridad/privilegios/privilegios.php" acronimo="pri" orden="2">Privilegios</FirstGeneration>
+		<FirstGeneration id="child3" imagen="images/mail.png" ruta="modulos/seguridad/auditoria/auditoria.php" acronimo="audi" orden="3">Auditoria</FirstGeneration>				
+		<FirstGeneration id="child4" imagen="images/mail.png" ruta="modulos/seguridad/acerca/acerca.php" acronimo="acer" orden="4">Acerca de</FirstGeneration>		
+
+		<FirstGeneration id="child5" imagen="" ruta="" orden="5">Primer Nivel
+			<SecondGeneration id="child5_1" imagen="images/mail.png" ruta="modulos/seguridad/primer_nivel/tercer_nivel.php" acronimo="segundo" orden="1">Segundo Nivel
+			</SecondGeneration>			
+		</FirstGeneration>				
+
+		<FirstGeneration id="child6" imagen="images/mail.png" ruta="modulos/seguridad/usu_basic/usu_basic.php" acronimo="basic" orden="6">Cambio Clave</FirstGeneration>				
+	</father>
+</menu>
